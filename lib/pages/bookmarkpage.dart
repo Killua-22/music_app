@@ -43,7 +43,7 @@ class _BookmarkUIState extends State<BookmarkUI> {
               children: [
                 for (var tracks in tracknames)
                   Text(
-                    snapshot.data.toString(),
+                    tracks!,
                     style: TextStyle(fontSize: 20),
                   ),
                 //name
